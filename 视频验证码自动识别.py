@@ -96,7 +96,7 @@ def watch_video_and_handle_captcha(driver, video_url):
             pass
 
 def main():
-    video_url = "https://jxjy.chinaacc.com/courseware/62235107/19230/7151/video/VideoPlayH5?VideoID=0105"  # 替换为实际的视频URL
+    video_url = "https:"  # 替换为实际的视频URL
     driver = connect_to_existing_chrome()
     try:
         watch_video_and_handle_captcha(driver, video_url)
