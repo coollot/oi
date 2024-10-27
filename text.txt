@@ -1,0 +1,6 @@
+$ git remote add origin git@github.com:coollot/coollot.git
+
+
+$ git remote add origin git@github.com:coollot/oi.git
+
+解决 fatal: Not a git repository
